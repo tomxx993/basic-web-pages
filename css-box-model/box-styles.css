@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
 h1, p {
     background-color: #DDE0E3;    /* Light gray */
 }
@@ -21,4 +31,16 @@ p {
 
 strong {
     margin: 50px;
+}
+
+div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto; /* Vertical  Horizontal */
 }
